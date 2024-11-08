@@ -35,3 +35,15 @@ Combine both `git add` and `git commit` into one command for a modified file.
 8. `git status`
 
 Check the current status of the git repository. You should do this after every change or command to be sure.
+
+9. `git remote add origin [link to GH repo]`
+
+Add your GH repo as the origin of your local repo
+
+10. `git push (origin main)`
+
+Push your local commits to GH. You need internet connection for it to work
+
+11. `git branch -M main` (optional)
+
+Rename your branch name to 'main' if not already named 'main'
